@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<title>List Modifier</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body onload="form.reset()">
+	<header>
+		<div class="container">
+			<div id="header">
+				<div id="div1">
+					<h1 id="head">List Modifier</h1>
+				</div>
+				<nav id="div2">
+					<input type="text" name="filter" placeholder="Search Items...">
+				</nav>	
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="container">
+			<div class="contain">
+				<h2 id="add">Add Items</h2>
+				<form id="form">
+					<input type="text" name="items" id="input" placeholder="New Item">					
+					<button class="btn btn-dark" type="submit">Submit</button>
+				</form>
+				<div class="text">
+					<h2>Items</h2>
+				</div>
+				<hr>
+				
+				<ul class="items">
+					<li class="list-group-item"><span id="b2n">Item 1</span><button class="btn btn-danger float-right delete">remove</button><button class="btn btn-info float-right edit">edit</button></li>
+					<li class="list-group-item"><span id="b2n">Item 2</span><button class="btn btn-danger float-right delete">remove</button><button class="btn btn-info float-right edit">edit</button></li>
+					<li class="list-group-item"><span id="b2n">Item 3</span><button class="btn btn-danger float-right delete">remove</button><button class="btn btn-info float-right edit">edit</button></li>
+					<li class="list-group-item"><span id="b2n">Item 4</span><button class="btn btn-danger float-right delete">remove</button><button class="btn btn-info float-right edit">edit</button></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<br>
+	<footer>
+		<div>
+			<p>Item List Modifier, &copy; 2018</p>
+		</div>
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>
